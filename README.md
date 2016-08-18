@@ -6,10 +6,10 @@ Uses the ","   ","   "and" design pattern for creating a sentence.
 Examples:
 
 
-     - ["Apple"] -> "Apple"
+     ["Apple"] -> "Apple"
      
      
-     - ["Apple", "Orange"] -> "Apple and Orange"
+     ["Apple", "Orange"] -> "Apple and Orange"
      
      
-     - ["Apple", "Orange", "Pear"] -> "Apple, Orange, and Pear"
+     ["Apple", "Orange", "Pear"] -> "Apple, Orange, and Pear"
