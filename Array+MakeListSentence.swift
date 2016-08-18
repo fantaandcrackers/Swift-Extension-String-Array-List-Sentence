@@ -1,6 +1,6 @@
 //
 //  Array+Extensions.swift
-//  Created by Arthur Shir on 8/18/16.
+//  Created by Arthur Shir and Josh Basch on 8/18/16.
 //
 
 extension String: CustomStringConvertible {
