@@ -23,7 +23,7 @@ extension Array where Element: CustomStringConvertible {
         case 0: return ""
         case 1: return "\(self[0])"
         case 2: return "\(self[0]) and \(self[1])"
-        default: return "\(dropLast().reduce("") { "\($0)\($1)," }) and \(last!)"
+        default: return "\(dropLast().reduce("") { "\($0)\($1), " })and \(last!)"
         }
     }
 
