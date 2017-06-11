@@ -4,14 +4,11 @@
 //
 
 extension String: CustomStringConvertible {
-
     // Necessary to add conformance to the protocol to the String Type
     public var description: String { return self }
-
 }
 
 extension Array where Element: CustomStringConvertible {
-
     /**
      Makes a sentence listing the strings in the array
      - Ex: ["Apple"] -> "Apple"
@@ -26,5 +23,4 @@ extension Array where Element: CustomStringConvertible {
         default: return "\(dropLast().reduce("") { "\($0)\($1), " })and \(last!)"
         }
     }
-
 }
